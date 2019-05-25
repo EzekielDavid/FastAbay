@@ -1,4 +1,5 @@
-##HACK THE HIVE 2019
-Ezekiel David
-John Joseph Mendez
-Lorence Hernandez
+##HACK THE HIVE 2019 <br>
+
+<li>Ezekiel David</li>
+<li>John Joseph Mendez</li>
+<li>Lorence Hernandez</li>
