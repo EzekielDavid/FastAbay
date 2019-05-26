@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    android:paddingHorizontal="20dp">
+
+    <EditText
+        android:id="@+id/tripTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+
+        android:hint="trip type"/>
+    <EditText
+        android:id="@+id/countryCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="country code"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="description"/>
+
+    <EditText
+        android:id="@+id/arrivalTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="arrival"/>
+
+    <EditText
+        android:id="@+id/departureTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="departure"/>
+
+    <EditText
+        android:id="@+id/stayDurationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="stay dration"/>
+
+    <EditText
+        android:id="@+id/stayLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="stay location"/>
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="city"/>
+
+
+    <EditText
+        android:id="@+id/destinationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_view"
+        android:textColor="#5063a0"
+        android:textSize="18sp"
+        android:fontFamily="@font/trebuchet"
+        android:textColorHint="#5063a0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="destination"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addButton"
+        android:layout_gravity="center_vertical"
+        android:text="add"/>
+
+</LinearLayout>
